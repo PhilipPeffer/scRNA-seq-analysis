@@ -1,0 +1,9 @@
+sample,fastq_1,fastq_2
+Hair_graft_4,HFU13_S1_L001_R1_001.fastq.gz,HFU13_S1_L001_R2_001.fastq.gz
+Hair_graft_4,HFU13_S1_L002_R1_001.fastq.gz,HFU13_S1_L002_R2_001.fastq.gz
+Hair_graft_4,HFU13_S1_L003_R1_001.fastq.gz,HFU13_S1_L003_R2_001.fastq.gz
+Hair_graft_4,HFU13_S1_L004_R1_001.fastq.gz,HFU13_S1_L004_R2_001.fastq.gz
+Hair_graft_5,HFU14_S2_L001_R1_001.fastq.gz,HFU14_S2_L001_R2_001.fastq.gz
+Hair_graft_5,HFU14_S2_L002_R1_001.fastq.gz,HFU14_S2_L002_R2_001.fastq.gz
+Hair_graft_5,HFU14_S2_L003_R1_001.fastq.gz,HFU14_S2_L003_R2_001.fastq.gz
+Hair_graft_5,HFU14_S2_L004_R1_001.fastq.gz,HFU14_S2_L004_R2_001.fastq.gz
