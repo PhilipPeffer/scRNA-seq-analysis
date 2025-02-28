@@ -1,0 +1,303 @@
+Feb-27 20:34:24.896 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nf-core/scrnaseq -profile docker -params-file nf-params.json -c nextflow.config
+Feb-27 20:34:24.956 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.4
+Feb-27 20:34:24.976 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/philip/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Feb-27 20:34:25.001 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Feb-27 20:34:25.002 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Feb-27 20:34:25.004 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Feb-27 20:34:25.016 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Feb-27 20:34:25.027 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/philip/.nextflow/scm
+Feb-27 20:34:25.708 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/philip/.nextflow/assets/nf-core/scrnaseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/scrnaseq.git
+Feb-27 20:34:25.730 [main] DEBUG nextflow.scm.RepositoryFactory - Found Git repository result: [RepositoryFactory]
+Feb-27 20:34:25.737 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/philip/.nextflow/assets/nf-core/scrnaseq/.git/config; branch: null; remote: origin; url: https://github.com/nf-core/scrnaseq.git
+Feb-27 20:34:26.489 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/philip/.nextflow/assets/nf-core/scrnaseq/nextflow.config
+Feb-27 20:34:26.489 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/nextflow.config
+Feb-27 20:34:26.492 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/nextflow.config
+Feb-27 20:34:26.492 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/philip/.nextflow/assets/nf-core/scrnaseq/nextflow.config
+Feb-27 20:34:26.493 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/nextflow.config
+Feb-27 20:34:26.493 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/nextflow.config
+Feb-27 20:34:26.497 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/philip/.nextflow/secrets/store.json
+Feb-27 20:34:26.500 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@64ae105d] - activable => nextflow.secret.LocalSecretsProvider@64ae105d
+Feb-27 20:34:26.512 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Feb-27 20:34:27.447 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Feb-27 20:34:27.456 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Feb-27 20:34:27.460 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, denbi_qbic, alice, mjolnir_globe, uppmax, giga, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, ccga_med, tes, scw, unc_longleaf, tigem, tubingen_apg, google, apollo, ipop_up, vsc_calcua, test_cellrangermulti, pdc_kth, googlels, ceci_nic5, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, ucl_myriad, utd_ganymede, charliecloud, seattlechildrens, icr_davros, ceres, arm, munin, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, marvin, shifter, biohpc_gen, mana, mamba, york_viking, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, genotoul, nci_gadi, abims, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, test_multiome, seg_globe, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, hki, seadragon, crukmi, csiro_petrichor, qmul_apocrita, wave, docker, engaging, gis, hypatia, psmn, eva, unity, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, self_hosted_runner, tufts, uw_hyak_pedslabs, debug, genouest, cbe, unsw_katana, gitpod, phoenix, seawulf, uod_hpc, fub_curta, uct_hpc, aws_tower, binac]
+Feb-27 20:34:27.504 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Feb-27 20:34:27.505 [main] DEBUG nextflow.cli.CmdRun - Launching `https://github.com/nf-core/scrnaseq` [special_ramanujan] DSL2 - revision: 89a7986916 [master]
+Feb-27 20:34:27.506 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-schema@2.1.1]
+Feb-27 20:34:27.507 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Feb-27 20:34:27.507 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-schema@2.1.1]
+Feb-27 20:34:27.507 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-schema version: 2.1.1
+Feb-27 20:34:27.513 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-schema@2.1.1' resolved
+Feb-27 20:34:27.513 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-schema@2.1.1'
+Feb-27 20:34:27.519 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-schema@2.1.1
+Feb-27 20:34:27.564 [main] DEBUG nextflow.Session - Session UUID: 3396dfed-5252-429a-bc4b-d7da83206288
+Feb-27 20:34:27.564 [main] DEBUG nextflow.Session - Run name: special_ramanujan
+Feb-27 20:34:27.564 [main] DEBUG nextflow.Session - Executor pool size: 24
+Feb-27 20:34:27.570 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Feb-27 20:34:27.573 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=72; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 20:34:27.590 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.4 build 5934
+  Created: 20-01-2025 16:47 UTC (11:47 EDT)
+  System: Linux 5.15.153.1-microsoft-standard-WSL2
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 21.0.6+7-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 19607@BEEP-BOOP [127.0.1.1]
+  CPUs: 24 - Mem: 15.5 GB (13.3 GB) - Swap: 4 GB (4 GB)
+Feb-27 20:34:27.601 [main] DEBUG nextflow.Session - Work-dir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work [ext2/ext3]
+Feb-27 20:34:27.624 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Feb-27 20:34:27.630 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Feb-27 20:34:27.667 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Feb-27 20:34:27.674 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 25; maxThreads: 1000
+Feb-27 20:34:27.732 [main] DEBUG nextflow.Session - Session start
+Feb-27 20:34:27.733 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/results/pipeline_info/execution_trace_2025-02-27_20-34-27.txt
+Feb-27 20:34:27.737 [main] DEBUG nextflow.Session - Using default localLib path: /home/philip/.nextflow/assets/nf-core/scrnaseq/lib
+Feb-27 20:34:27.739 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/philip/.nextflow/assets/nf-core/scrnaseq/lib
+Feb-27 20:34:27.826 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Feb-27 20:34:28.232 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Feb-27 20:34:28.480 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Feb-27 20:34:28.481 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Feb-27 20:34:28.483 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Feb-27 20:34:28.483 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Feb-27 20:34:29.886 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Feb-27 20:34:29.886 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Feb-27 20:34:29.887 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Feb-27 20:34:29.888 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Feb-27 20:34:30.001 [main] INFO  nextflow.Nextflow - 
+-[2m----------------------------------------------------[0m-
+                                        [0;32m,--.[0;30m/[0;32m,-.[0m
+[0;34m        ___     __   __   __   ___     [0;32m/,-._.--~'[0m
+[0;34m  |\ | |__  __ /  ` /  \ |__) |__         [0;33m}  {[0m
+[0;34m  | \| |       \__, \__/ |  \ |___     [0;32m\`-._,-`-,[0m
+                                        [0;32m`._,._,'[0m
+[0;35m  nf-core/scrnaseq 3.0.0[0m
+-[2m----------------------------------------------------[0m-
+[1mInput/output options[0m
+  [0;34minput               : [0;32m./data/samplesheet.csv[0m
+  [0;34moutdir              : [0;32m./results[0m
+
+[1mMandatory arguments[0m
+  [0;34mprotocol            : [0;32m10XV2[0m
+
+[1mReference genome options[0m
+  [0;34mfasta               : [0;32m./data/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz[0m
+  [0;34mgtf                 : [0;32m./data/ref/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz[0m
+  [0;34msave_reference      : [0;32mtrue[0m
+  [0;34msave_align_intermeds: [0;32mtrue[0m
+
+[1mCore Nextflow options[0m
+  [0;34mrevision            : [0;32mmaster[0m
+  [0;34mrunName             : [0;32mspecial_ramanujan[0m
+  [0;34mcontainerEngine     : [0;32mdocker[0m
+  [0;34mlaunchDir           : [0;32m/home/philip/Projects/scRNA-seq-analysis/raw_data_processing[0m
+  [0;34mworkDir             : [0;32m/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work[0m
+  [0;34mprojectDir          : [0;32m/home/philip/.nextflow/assets/nf-core/scrnaseq[0m
+  [0;34muserName            : [0;32mphilip[0m
+  [0;34mprofile             : [0;32mdocker[0m
+  [0;34mconfigFiles         : [0;32m[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-* The pipeline
+  https://doi.org/10.5281/zenodo.3568187
+
+* The nf-core framework
+    https://doi.org/10.1038/s41587-020-0439-x
+
+* Software dependencies
+    https://github.com/nf-core/scrnaseq/blob/master/CITATIONS.md
+
+Feb-27 20:34:30.003 [main] DEBUG nextflow.validation.SchemaValidator - Starting parameters validation
+Feb-27 20:34:30.025 [main] WARN  nextflow.validation.SchemaValidator - The following invalid input values have been detected:
+
+* --monochromeLogs: null
+
+
+Feb-27 20:34:30.091 [main] DEBUG nextflow.validation.SchemaEvaluator - Started validating /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/data/samplesheet.csv
+Feb-27 20:34:30.125 [main] DEBUG nextflow.validation.SchemaEvaluator - Validation of file './data/samplesheet.csv' passed!
+Feb-27 20:34:30.126 [main] DEBUG n.v.FormatDirectoryPathEvaluator - Cloud blob storage paths are not supported by 'FormatDirectoryPathEvaluator': 's3://ngi-igenomes/igenomes/'
+Feb-27 20:34:30.127 [main] DEBUG nextflow.validation.SchemaValidator - Finishing parameters validation
+Feb-27 20:34:30.206 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC
+Feb-27 20:34:30.208 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTQC` matches process NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC
+Feb-27 20:34:30.214 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.214 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.217 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Feb-27 20:34:30.221 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=24; memory=15.5 GB; capacity=24; pollInterval=100ms; dumpInterval=5m
+Feb-27 20:34:30.223 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Feb-27 20:34:30.260 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_FASTA
+Feb-27 20:34:30.263 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.263 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.268 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_GTF
+Feb-27 20:34:30.269 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.270 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.276 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER
+Feb-27 20:34:30.277 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GTF_GENE_FILTER` matches process NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER
+Feb-27 20:34:30.278 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.278 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.283 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_INDEX
+Feb-27 20:34:30.284 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SIMPLEAF_INDEX` matches process NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_INDEX
+Feb-27 20:34:30.286 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.286 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.296 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_QUANT
+Feb-27 20:34:30.297 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SIMPLEAF_QUANT` matches process NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_QUANT
+Feb-27 20:34:30.299 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.299 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.304 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:ALEVINQC
+Feb-27 20:34:30.305 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ALEVINQC` matches process NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:ALEVINQC
+Feb-27 20:34:30.306 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.306 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.315 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:MTX_TO_H5AD
+Feb-27 20:34:30.316 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MTX_TO_H5AD|CONCAT_H5AD|ANNDATAR_CONVERT` matches process NFCORE_SCRNASEQ:SCRNASEQ:MTX_TO_H5AD
+Feb-27 20:34:30.317 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.317 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.325 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.326 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MTX_TO_H5AD|CONCAT_H5AD|ANNDATAR_CONVERT` matches process NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.327 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.327 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.335 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.335 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MTX_TO_H5AD|CONCAT_H5AD|ANNDATAR_CONVERT` matches process NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.336 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.336 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.357 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium,process_gpu` for process with name NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:CELLBENDER_REMOVEBACKGROUND
+Feb-27 20:34:30.357 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CELLBENDER_REMOVEBACKGROUND` matches process NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:CELLBENDER_REMOVEBACKGROUND
+Feb-27 20:34:30.359 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.359 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.371 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:ADATA_BARCODES
+Feb-27 20:34:30.372 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ADATA_BARCODES` matches process NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:ADATA_BARCODES
+Feb-27 20:34:30.373 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.373 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.378 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.379 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MTX_TO_H5AD|CONCAT_H5AD|ANNDATAR_CONVERT` matches process NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.380 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.380 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.386 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.387 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MTX_TO_H5AD|CONCAT_H5AD|ANNDATAR_CONVERT` matches process NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.388 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.388 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.443 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_SCRNASEQ:SCRNASEQ:MULTIQC
+Feb-27 20:34:30.444 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MULTIQC` matches process NFCORE_SCRNASEQ:SCRNASEQ:MULTIQC
+Feb-27 20:34:30.446 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Feb-27 20:34:30.446 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Feb-27 20:34:30.456 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Feb-27 20:34:30.456 [main] DEBUG nextflow.Session - Igniting dataflow network (32)
+Feb-27 20:34:30.457 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC
+Feb-27 20:34:30.458 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_FASTA
+Feb-27 20:34:30.458 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_GTF
+Feb-27 20:34:30.458 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER
+Feb-27 20:34:30.458 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_INDEX
+Feb-27 20:34:30.459 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:SIMPLEAF_QUANT
+Feb-27 20:34:30.459 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:SCRNASEQ_ALEVIN:ALEVINQC
+Feb-27 20:34:30.459 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:MTX_TO_H5AD
+Feb-27 20:34:30.459 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.460 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.460 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:CELLBENDER_REMOVEBACKGROUND
+Feb-27 20:34:30.460 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:EMPTY_DROPLET_REMOVAL:ADATA_BARCODES
+Feb-27 20:34:30.460 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:CONCAT_H5AD
+Feb-27 20:34:30.460 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:EMPTYDROPS_H5AD_CONVERSION:ANNDATAR_CONVERT
+Feb-27 20:34:30.466 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_SCRNASEQ:SCRNASEQ:MULTIQC
+Feb-27 20:34:30.468 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_1d538380a1e64ea5: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/adata_barcodes.nf
+  Script_116619ccb325236c: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellranger/count/main.nf
+  Script_2422cb5c866a3f02: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellranger/mkgtf/main.nf
+  Script_0ce72e734ad77725: /home/philip/.nextflow/assets/nf-core/scrnaseq/./subworkflows/local/utils_nfcore_scrnaseq_pipeline/../../nf-core/utils_nextflow_pipeline/main.nf
+  Script_5e0268711772ca21: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/alevin.nf
+  Script_a7f144ee1eabb497: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/kallisto_bustools.nf
+  Script_1845244c4e07a180: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/alevinqc.nf
+  Script_f289bdfe26d7f1cf: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/fastqc/main.nf
+  Script_215a636da7ab24a2: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/utils_nfcore_scrnaseq_pipeline/../../nf-core/utils_nfschema_plugin/main.nf
+  Script_eafb432665684a89: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/h5ad_conversion.nf
+  Script_a5e3a56fa0f5753f: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/align_cellrangerarc.nf
+  Script_2ce2cea66f33b0c9: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/parse_cellrangermulti_samplesheet.nf
+  Script_b6f2f5397ff1b307: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../modules/local/gtf_gene_filter.nf
+  Script_b3b40024106a3a7e: /home/philip/.nextflow/assets/nf-core/scrnaseq/./subworkflows/local/utils_nfcore_scrnaseq_pipeline/main.nf
+  Script_85014429899d4eed: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellrangerarc/count/main.nf
+  Script_f484bb04f71d5cb3: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellranger/multi/main.nf
+  Script_9920ace3f63f7548: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/concat_h5ad.nf
+  Script_d5eea33c288febb4: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellbender/removebackground/main.nf
+  Script_4955288afd8ca61e: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../modules/nf-core/multiqc/main.nf
+  Script_a242b7d3e1522c1a: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/align_cellranger.nf
+  Script_67f289d1fa44410a: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/kallistobustools/count/main.nf
+  Script_6fbcf8477f9d7d4c: /home/philip/.nextflow/assets/nf-core/scrnaseq/./subworkflows/local/utils_nfcore_scrnaseq_pipeline/../../nf-core/utils_nfcore_pipeline/main.nf
+  Script_2d8be64b150e2273: /home/philip/.nextflow/assets/nf-core/scrnaseq/main.nf
+  Script_ea16bfd655128080: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/gffread/main.nf
+  Script_b27b3749a7caf288: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/simpleaf_quant.nf
+  Script_b8ef320e712f03dd: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellrangerarc/mkgtf/main.nf
+  Script_4d5fa0614afc9019: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/emptydrops_removal.nf
+  Script_4468b0802e86fbdf: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/simpleaf_index.nf
+  Script_8b4cd5023b0747bc: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/star/genomegenerate/main.nf
+  Script_7db0c40b9e083db8: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/mtx_to_h5ad.nf
+  Script_7fc9d40ebc5611d3: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellranger/mkref/main.nf
+  Script_cd16b0ec1ceb2053: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/align_cellrangermulti.nf
+  Script_6addb914623f1441: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/scrnaseq.nf
+  Script_79d1da9dbe21e43d: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/gffread_transcriptome.nf
+  Script_7e8d271df95be11a: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/starsolo.nf
+  Script_7d26d205472ec618: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/fastqc.nf
+  Script_32d9d086d395c86c: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/star_align.nf
+  Script_b6e854e2f4a9b0b7: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/kallistobustools/ref/main.nf
+  Script_ee6d5a1dfbefe9e1: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellranger/mkvdjref/main.nf
+  Script_a6b84a8d8db37c9d: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../modules/nf-core/gunzip/main.nf
+  Script_13d4ec1d4f43657c: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/local/anndatar_convert.nf
+  Script_fd9ffb2ce3d24fd1: /home/philip/.nextflow/assets/nf-core/scrnaseq/./workflows/../subworkflows/local/../../modules/nf-core/cellrangerarc/mkref/main.nf
+Feb-27 20:34:30.468 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Feb-27 20:34:30.468 [main] DEBUG nextflow.Session - Session await
+Feb-27 20:34:30.563 [Actor Thread 23] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.009 s; total time: 0.01 s
+Feb-27 20:34:30.563 [Actor Thread 15] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.009 s; total time: 0.01 s
+Feb-27 20:34:30.570 [Actor Thread 15] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/collect-file/380d5d841b23c8b5067c847ea53214c5
+Feb-27 20:34:30.570 [Actor Thread 23] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/collect-file/1e196b66683a03f96f13d8525f2a26a1
+Feb-27 20:34:30.573 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 20:34:30.575 [Task submitter] INFO  nextflow.Session - [43/3a30a9] Submitted process > NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC (Hair_graft_4)
+Feb-27 20:34:30.575 [Actor Thread 23] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-5585663151396847533
+Feb-27 20:34:30.575 [Actor Thread 15] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-10092159849130075935
+Feb-27 20:37:10.055 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC (Hair_graft_4); status: COMPLETED; exit: 0; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/43/3a30a9cb39fe72086118e00146a096]
+Feb-27 20:37:10.055 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=72; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 20:37:10.061 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 20:37:10.061 [Task submitter] INFO  nextflow.Session - [5e/98122b] Submitted process > NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC (Hair_graft_5)
+Feb-27 20:37:10.080 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=72; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Feb-27 20:39:30.331 [Task monitor] DEBUG n.processor.TaskPollingMonitor - !! executor local > tasks to be completed: 1 -- submitted tasks are shown below
+~> TaskHandler[id: 4; name: NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC (Hair_graft_5); status: RUNNING; exit: -; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/5e/98122be7cdf963a83c278f258f7dd1]
+Feb-27 20:39:30.618 [Task submitter] DEBUG n.processor.TaskPollingMonitor - %% executor local > tasks in the submission queue: 2 -- tasks to be submitted are shown below
+~> TaskHandler[id: 2; name: NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_GTF (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz); status: NEW; exit: -; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/ba/027a1e787f8496f4e1c1b16602a9f0]
+~> TaskHandler[id: 1; name: NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_FASTA (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz); status: NEW; exit: -; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/f2/bfa01448725615214245ebb4681e0c]
+Feb-27 20:39:44.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: NFCORE_SCRNASEQ:SCRNASEQ:FASTQC_CHECK:FASTQC (Hair_graft_5); status: COMPLETED; exit: 0; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/5e/98122be7cdf963a83c278f258f7dd1]
+Feb-27 20:39:44.673 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 20:39:44.673 [Task submitter] INFO  nextflow.Session - [ba/027a1e] Submitted process > NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_GTF (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz)
+Feb-27 20:39:44.678 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Feb-27 20:39:44.679 [Task submitter] INFO  nextflow.Session - [f2/bfa014] Submitted process > NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_FASTA (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz)
+Feb-27 20:39:59.667 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_FASTA (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz); status: COMPLETED; exit: 0; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/f2/bfa01448725615214245ebb4681e0c]
+Feb-27 20:39:59.751 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: NFCORE_SCRNASEQ:SCRNASEQ:GUNZIP_GTF (Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz); status: COMPLETED; exit: 0; error: -; workDir: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/ba/027a1e787f8496f4e1c1b16602a9f0]
+Feb-27 20:39:59.758 [Actor Thread 18] DEBUG nextflow.processor.TaskProcessor - Process NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER > collision check staging file names: [Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa:2]
+Feb-27 20:39:59.762 [Actor Thread 18] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER; work-dir=null
+  error [nextflow.exception.ProcessUnrecoverableException]: Process `NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER` input file name collision -- There are multiple input files for each of the following file names: Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa
+Feb-27 20:39:59.772 [Actor Thread 18] ERROR nextflow.processor.TaskProcessor - Error executing process > 'NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER'
+
+Caused by:
+  Process `NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER` input file name collision -- There are multiple input files for each of the following file names: Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa
+
+
+
+Container:
+  quay.io/biocontainers/python:3.9--1
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Feb-27 20:39:59.774 [Actor Thread 18] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+Feb-27 20:39:59.778 [Actor Thread 18] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Feb-27 20:39:59.778 [main] DEBUG nextflow.Session - Session await > all processes finished
+Feb-27 20:39:59.778 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Feb-27 20:39:59.779 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Feb-27 20:39:59.780 [Actor Thread 23] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_SCRNASEQ:SCRNASEQ:GTF_GENE_FILTER; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Feb-27 20:39:59.782 [Actor Thread 17] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 4; slices: 1; internal sort time: 0.001 s; external sort time: 0.001 s; total time: 0.002 s
+Feb-27 20:39:59.789 [Actor Thread 17] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/collect-file/be905c9c7e5bcdc15c24753b01b9e69a
+Feb-27 20:39:59.790 [Actor Thread 17] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-17323098202884029263
+Feb-27 20:39:59.792 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Feb-27 20:40:02.575 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Feb-27 20:40:02.579 [main] INFO  nextflow.Nextflow - -[0;35m[nf-core/scrnaseq][0;31m Pipeline completed with errors[0m-
+Feb-27 20:40:02.582 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=4; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=31m 40s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=6; peakMemory=15 GB; ]
+Feb-27 20:40:02.582 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Feb-27 20:40:02.583 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Feb-27 20:40:03.029 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Feb-27 20:40:03.117 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Feb-27 20:40:03.129 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-schema@2.1.1'
+Feb-27 20:40:03.129 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-schema
+Feb-27 20:40:03.130 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Feb-27 20:40:03.131 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Hair_graft_4_8	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/18/Hair_graft_4_8_fastqc.zip
+FastQC	all_sections	Hair_graft_4_7	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/17/Hair_graft_4_7_fastqc.zip
+FastQC	all_sections	Hair_graft_4_5	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/15/Hair_graft_4_5_fastqc.zip
+FastQC	all_sections	Hair_graft_5_8	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/34/Hair_graft_5_8_fastqc.zip
+FastQC	all_sections	Hair_graft_5_2	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/28/Hair_graft_5_2_fastqc.zip
+FastQC	all_sections	Hair_graft_4_6	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/16/Hair_graft_4_6_fastqc.zip
+FastQC	all_sections	Hair_graft_5_1	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/27/Hair_graft_5_1_fastqc.zip
+FastQC	all_sections	Hair_graft_5_6	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/32/Hair_graft_5_6_fastqc.zip
+FastQC	all_sections	Hair_graft_5_3	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/29/Hair_graft_5_3_fastqc.zip
+FastQC	all_sections	Hair_graft_5_4	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/30/Hair_graft_5_4_fastqc.zip
+FastQC	all_sections	Hair_graft_5_5	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/31/Hair_graft_5_5_fastqc.zip
+FastQC	all_sections	Hair_graft_5_7	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/33/Hair_graft_5_7_fastqc.zip
+FastQC	all_sections	Hair_graft_4_2	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/12/Hair_graft_4_2_fastqc.zip
+FastQC	all_sections	Hair_graft_4_3	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/13/Hair_graft_4_3_fastqc.zip
+FastQC	all_sections	Hair_graft_4_1	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/11/Hair_graft_4_1_fastqc.zip
+FastQC	all_sections	Hair_graft_4_4	/home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef/14/Hair_graft_4_4_fastqc.zip

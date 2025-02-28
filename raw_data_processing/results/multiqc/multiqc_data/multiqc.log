@@ -1,0 +1,10 @@
+[2025-02-28 08:22:28,616] multiqc.config                                     [INFO   ]  Loading config settings from: multiqc_config.yml
+[2025-02-28 08:22:29,266] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.27.1 now available!
+[2025-02-28 08:22:29,267] multiqc.core.file_search                           [INFO   ]  Search path: /home/philip/Projects/scRNA-seq-analysis/raw_data_processing/work/af/af38d1dc64d36edc98c812a4fee4ef
+[2025-02-28 08:22:29,628] multiqc.modules.custom_content.custom_content      [WARNING]  HTML plot type found with more than one dataset in nf-core-scrnaseq-summary
+[2025-02-28 08:22:29,628] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-scrnaseq-summary: Found 1 sample (html)
+[2025-02-28 08:22:29,628] multiqc.modules.custom_content.custom_content      [WARNING]  HTML plot type found with more than one dataset in nf-core-scrnaseq-methods-description
+[2025-02-28 08:22:29,629] multiqc.modules.custom_content.custom_content      [INFO   ]  nf-core-scrnaseq-methods-description: Found 1 sample (html)
+[2025-02-28 08:22:29,633] multiqc.modules.salmon.salmon                      [INFO   ]  Found 1 meta reports
+[2025-02-28 08:22:29,679] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports
+[2025-02-28 08:22:29,817] multiqc.core.write_results                         [INFO   ]  Rendering plots. Export plots to formats png, svg, pdf is requested, so it might take a while. To disable plot export, set `export_plots: false` in config, or remove the `--export-plots` command line flag

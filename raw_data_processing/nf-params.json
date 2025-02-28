@@ -1,0 +1,8 @@
+{
+    "input": ".\/data\/samplesheet.csv",
+    "outdir": ".\/results",
+    "protocol": "10XV2",
+    "fasta": ".\/data\/ref\/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa.gz",
+    "gtf": ".\/data\/ref\/Homo_sapiens.GRCh38.113.gtf.gz",
+    "save_reference": true
+}

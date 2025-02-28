@@ -1,0 +1,11 @@
+Sample	alevinqc	r-base	anndataR	SeuratObject	SingleCellExperiment	python	scanpy	fastqc	gunzip	pandas	anndata	simpleaf	salmon	nf-core/scrnaseq	Nextflow
+ALEVINQC	1.12.1														
+ANNDATAR_CONVERT		R version 4.4.2 (2024-10-31)	0.99.0	5.0.2	1.28.1										
+CONCAT_H5AD						3.12.5	1.10.2								
+FastQC								0.12.1							
+GUNZIP_FASTA									1.1						
+GUNZIP_GTF									1.1						
+MTX_TO_H5AD						3.12.5	1.10.2			2.2.2	0.10.8				
+SIMPLEAF_INDEX												0.10.0	1.10.0		
+SIMPLEAF_QUANT												0.10.0	1.10.0		
+Workflow														v3.0.0-g89a7986	24.10.4
