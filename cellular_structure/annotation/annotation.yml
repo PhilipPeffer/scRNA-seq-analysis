@@ -7,14 +7,14 @@ channels:
 dependencies:
   - conda-forge::python=3.9
   - conda-forge::scanpy=1.9.3
-  - conda-forge::leidenalg
-  - conda-forge::jupyterlab
+  - conda-forge::leidenalg=0.10.2
+  - conda-forge::jupyterlab=4.3.5
   - conda-forge::jupyter_server=2.6.0
   - conda-forge::umap-learn=0.5.3
   - conda-forge::pynndescent
-  - bioconda::celltypist=1.5.0
+  - conda-forge::scvi-tools=1.0.0
+  - conda-forge::anndata=0.10.8
+  - conda-forge::scikit-learn=0.24.1
+  - bioconda::scarches=0.6.1
+  - bioconda::celltypist=1.6.3
   - anaconda::pandas=1.5.2
-  - anaconda::pip
-  - pip:
-      - scarches==0.5.9
-      - scvi-tools==1.0.0
